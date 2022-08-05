@@ -30,8 +30,8 @@ while i<len(question_list[i]):
 			if user2==solution_list2[i]:
 				print("you are right")
 			else:
-				 print("wrong:")
-				 break
+				print("wrong:")
+				break
 		else:
 			print("opps! you already used")
 			num=int(input("enter any no. "))
@@ -44,3 +44,4 @@ while i<len(question_list[i]):
 		print("wrong...better luck for the next time")
 		break
 	i=i+1
+	
